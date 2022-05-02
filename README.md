@@ -2,4 +2,4 @@
 
 docker build -t ggweb .
 
-docker run --network=host --name ggweb -v /etc/localtime:/etc/localtime  ggweb
+docker run -d --network=host --name ggweb -v /etc/localtime:/etc/localtime  ggweb
